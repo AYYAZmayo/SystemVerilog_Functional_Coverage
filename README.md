@@ -5,3 +5,11 @@ These projects demonstrate the:
 - Implicit and explicit bins, default bins illegal bins, ignore bins, wildcard bins, covergroup, sampling events, 
 - Transition bins and Cross Coverage
 
+## Table of contents
+| Sr. No | EDAPlayground Link | Github |
+| --- | ---- | ---- |
+| 1 | https://edaplayground.com/x/hcR2 | [MUX_8x1](https://github.com/AYYAZmayo/SystemVerilog_Functional_Coverage/tree/main/MUX_8x1)                                |
+| 2 | https://edaplayground.com/x/bTY2 | [Periority_Encoder](https://github.com/AYYAZmayo/SystemVerilog_Functional_Coverage/tree/main/Periority_encoder)        |
+| 3 | https://edaplayground.com/x/jJ9A | [Simple_FIFO](https://github.com/AYYAZmayo/SystemVerilog_Functional_Coverage/tree/main/FIFO)                     |
+| 4 | https://edaplayground.com/x/P3tz | [SPI](https://github.com/AYYAZmayo/SystemVerilog_Functional_Coverage/tree/main/DAC_SPI)                                |
+| 5 | https://edaplayground.com/x/mN2T | [8_Bit_Counter](https://github.com/AYYAZmayo/SystemVerilog_Functional_Coverage/tree/main/8_bit_counter)                                |
