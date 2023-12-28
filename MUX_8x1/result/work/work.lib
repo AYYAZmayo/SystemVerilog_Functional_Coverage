@@ -1,0 +1,227 @@
+timestamp=1703586177698
+
+[~A]
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*17435*18506
+
+[~MFT]
+0=43|0work.mgf|18506|0
+1=22|1work.mgf|75744|0
+3=44|3work.mgf|62096|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c9216dff54bef51521fa9b91c7b9f6081703a
+
+[\tb cvr_mux \]
+A/\tb cvr_mux \=22|../testbench.sv|10|1*4019
+AICT=436118061449984
+BinL64/\tb cvr_mux \=3*3464
+CLI=0*1320
+R=../testbench.sv|10
+SLP=3*8424
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|460e2136ad38df49115e84efd59ce14c73e70fa46278a32e2e947765f736c63448fe76a64aac8109238f34222948524f
+
+[\tb.cvr_mux coverpoint::a \]
+A/\tb.cvr_mux coverpoint::a \=22|../testbench.sv|13|1*15517
+AICT=436118061451264
+BinL64/\tb.cvr_mux coverpoint::a \=3*13763
+CLI=0*2310
+R=../testbench.sv|13
+SLP=3*15292
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1c7fb1d2ff4dbc9eb8fdbc6e8a27eb6d6e762b3f216c016badaa634c012fa815d290180160fb8ba7a12058725b7b85fff
+
+[\tb.cvr_mux coverpoint::b \]
+A/\tb.cvr_mux coverpoint::b \=22|../testbench.sv|18|1*19092
+AICT=436118061451520
+BinL64/\tb.cvr_mux coverpoint::b \=3*16586
+CLI=0*3186
+R=../testbench.sv|18
+SLP=3*18104
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1a9c0a041196612f9f90959100c8c30ce5e7e2f94509ca41ea7abfaf218fd6c38290180160fb8ba7a12058725b7b85fff
+
+[\tb.cvr_mux coverpoint::c \]
+A/\tb.cvr_mux coverpoint::c \=22|../testbench.sv|23|1*22667
+AICT=436118061451776
+BinL64/\tb.cvr_mux coverpoint::c \=3*19395
+CLI=0*4063
+R=../testbench.sv|23
+SLP=3*20914
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f134e463eb4f29395278deb753667494d1cbe6aa8516869280a627698ae0156202290180160fb8ba7a12058725b7b85fff
+
+[\tb.cvr_mux coverpoint::d \]
+A/\tb.cvr_mux coverpoint::d \=22|../testbench.sv|28|1*26242
+AICT=436118061452032
+BinL64/\tb.cvr_mux coverpoint::d \=3*22201
+CLI=0*4938
+R=../testbench.sv|28
+SLP=3*23720
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1df3260349c1d1064eae25feb597ca0cd0ae7ddc5ddf8bd026e2e6cc312d9adc4290180160fb8ba7a12058725b7b85fff
+
+[\tb.cvr_mux coverpoint::e \]
+A/\tb.cvr_mux coverpoint::e \=22|../testbench.sv|33|1*29817
+AICT=436118061452288
+BinL64/\tb.cvr_mux coverpoint::e \=3*25009
+CLI=0*5813
+R=../testbench.sv|33
+SLP=3*26530
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1a9a41723970ce425baa4430758d0150e49fdad0b4803a4fe9756180c8a683ee77eacf84778999e18a034d7cc53a9334b
+
+[\tb.cvr_mux coverpoint::f \]
+A/\tb.cvr_mux coverpoint::f \=22|../testbench.sv|38|1*33392
+AICT=436118061452544
+BinL64/\tb.cvr_mux coverpoint::f \=3*27819
+CLI=0*6690
+R=../testbench.sv|38
+SLP=3*29339
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f14e83389a8da66f228adbc3ea48940853f49c5996a493ab558b308d2e1e5005807eacf84778999e18a034d7cc53a9334b
+
+[\tb.cvr_mux coverpoint::g \]
+A/\tb.cvr_mux coverpoint::g \=22|../testbench.sv|43|1*36967
+AICT=436118061452800
+BinL64/\tb.cvr_mux coverpoint::g \=3*30628
+CLI=0*7567
+R=../testbench.sv|43
+SLP=3*32148
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f13db1b364b45b3fdea5f11fdf7845d534e08e99162005763a9e9747fffdaca95d7eacf84778999e18a034d7cc53a9334b
+
+[\tb.cvr_mux coverpoint::h \]
+A/\tb.cvr_mux coverpoint::h \=22|../testbench.sv|48|1*40542
+AICT=436118061453056
+BinL64/\tb.cvr_mux coverpoint::h \=3*33441
+CLI=0*8444
+R=../testbench.sv|48
+SLP=3*34962
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1cee4579bfff030679b2343d50de63a774add3d0371c8cf4f73f6c265303963d57eacf84778999e18a034d7cc53a9334b
+
+[\tb.cvr_mux coverpoint::sel \]
+A/\tb.cvr_mux coverpoint::sel \=22|../testbench.sv|85|1*44117
+AICT=436118061453312
+BinL64/\tb.cvr_mux coverpoint::sel \=3*36253
+CLI=0*9325
+R=../testbench.sv|85
+SLP=3*37716
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f12dd3ab850bc50f5d29d304c0c439df2312e572c02e2cb19647097601441db3538879178449cb87573e3b8e84989c6f35
+
+[\tb.cvr_mux coverpoint::y \]
+A/\tb.cvr_mux coverpoint::y \=22|../testbench.sv|86|1*47718
+AICT=436118061453568
+BinL64/\tb.cvr_mux coverpoint::y \=3*39000
+CLI=0*10206
+R=../testbench.sv|86
+SLP=3*40458
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1935d25857a89c3789aef489ecce2b68a5f9da7613ab7efecbe267b920df0eeaa6d4a31cd5b9bdb982ae7adfa0bda40db
+
+[\tb.cvr_mux cross::0 \]
+A/\tb.cvr_mux cross::0 \=22|../testbench.sv|53|1*51293
+AICT=436118061453824
+BinL64/\tb.cvr_mux cross::0 \=3*41739
+CLI=0*11070
+R=../testbench.sv|53
+SLP=3*43184
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1a5156c2950b224abc5dd69a859cae0386e3c3495f1eb428fc47372e7684b4573
+
+[\tb.cvr_mux cross::1 \]
+A/\tb.cvr_mux cross::1 \=22|../testbench.sv|57|1*54786
+AICT=436118061454080
+BinL64/\tb.cvr_mux cross::1 \=3*44439
+CLI=0*11926
+R=../testbench.sv|57
+SLP=3*45883
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f140d3d02ce70da08148d2afee5ce7e9ca6e3c3495f1eb428fc47372e7684b4573
+
+[\tb.cvr_mux cross::2 \]
+A/\tb.cvr_mux cross::2 \=22|../testbench.sv|61|1*58279
+AICT=436118061454336
+BinL64/\tb.cvr_mux cross::2 \=3*47139
+CLI=0*12783
+R=../testbench.sv|61
+SLP=3*48585
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1dc68040c0677102ad6176085a449d8a46e3c3495f1eb428fc47372e7684b4573
+
+[\tb.cvr_mux cross::3 \]
+A/\tb.cvr_mux cross::3 \=22|../testbench.sv|65|1*61772
+AICT=436118061454592
+BinL64/\tb.cvr_mux cross::3 \=3*49838
+CLI=0*13640
+R=../testbench.sv|65
+SLP=3*51285
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1d3c81bf1b7f0fcfaef7e8b611eaafc2b61fa409bc206e24d1ce7aee087b7eea3
+
+[\tb.cvr_mux cross::4 \]
+A/\tb.cvr_mux cross::4 \=22|../testbench.sv|69|1*65265
+AICT=436118061454848
+BinL64/\tb.cvr_mux cross::4 \=3*52542
+CLI=0*14497
+R=../testbench.sv|69
+SLP=3*53986
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f13e7d7b7f9bbe1a21168883ab4397996161fa409bc206e24d1ce7aee087b7eea3
+
+[\tb.cvr_mux cross::5 \]
+A/\tb.cvr_mux cross::5 \=22|../testbench.sv|73|1*68758
+AICT=436118061455104
+BinL64/\tb.cvr_mux cross::5 \=3*55241
+CLI=0*15353
+R=../testbench.sv|73
+SLP=3*56688
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1cbe0e4f621e8a776fd1f6ae3c9597b4c61fa409bc206e24d1ce7aee087b7eea3
+
+[\tb.cvr_mux cross::6 \]
+A/\tb.cvr_mux cross::6 \=22|../testbench.sv|77|1*72251
+AICT=436118061455360
+BinL64/\tb.cvr_mux cross::6 \=3*57944
+CLI=0*16210
+R=../testbench.sv|77
+SLP=3*59390
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f1f353faae4d3b32ebc60104d4be9c887861fa409bc206e24d1ce7aee087b7eea3
+
+[\tb.cvr_mux cross::7 \]
+A/\tb.cvr_mux cross::7 \=22|../testbench.sv|81|1*75744
+AICT=436118061455616
+BinL64/\tb.cvr_mux cross::7 \=3*60648
+CLI=0*17066
+R=../testbench.sv|81
+SLP=3*62096
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c926338cbad90184b7b1697072b532f13e607f041309ed628501877534531bef61fa409bc206e24d1ce7aee087b7eea3
+
+[mux]
+A/mux=22|../design.sv|1|1*374
+BinL64/mux=3*174
+R=../design.sv|1
+SLP=3*900
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|97262232024e18459c438da5de39699b4f5cdd73433a9cf5bf5755b2b3adcb82
+
+[tb]
+A/tb=22|../testbench.sv|3|1*1778
+BinL64/tb=3*1301
+R=../testbench.sv|3
+SLP=3*2489
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fa1cfce321c5ee556fc6d8b7e8dca3d148
+
+[~U]
+$root=12|0*0|
+\tb cvr_mux \=12|0*569||0x30000
+\tb.cvr_mux coverpoint::a \=12|0*1810||0x80030000
+\tb.cvr_mux coverpoint::b \=12|0*2686||0x80030000
+\tb.cvr_mux coverpoint::c \=12|0*3563||0x80030000
+\tb.cvr_mux coverpoint::d \=12|0*4438||0x80030000
+\tb.cvr_mux coverpoint::e \=12|0*5313||0x80030000
+\tb.cvr_mux coverpoint::f \=12|0*6189||0x80030000
+\tb.cvr_mux coverpoint::g \=12|0*7067||0x80030000
+\tb.cvr_mux coverpoint::h \=12|0*7944||0x80030000
+\tb.cvr_mux coverpoint::sel \=12|0*8822||0x80030000
+\tb.cvr_mux coverpoint::y \=12|0*9706||0x80030000
+\tb.cvr_mux cross::0 \=12|0*10583||0x80030000
+\tb.cvr_mux cross::1 \=12|0*11440||0x80030000
+\tb.cvr_mux cross::2 \=12|0*12296||0x80030000
+\tb.cvr_mux cross::3 \=12|0*13153||0x80030000
+\tb.cvr_mux cross::4 \=12|0*14010||0x80030000
+\tb.cvr_mux cross::5 \=12|0*14867||0x80030000
+\tb.cvr_mux cross::6 \=12|0*15723||0x80030000
+\tb.cvr_mux cross::7 \=12|0*16579||0x80030000
+mux=12|0*182|
+tb=12|0*414||0x10

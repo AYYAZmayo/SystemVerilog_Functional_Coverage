@@ -1,0 +1,170 @@
++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++       REPORT INFO       ++++++++++
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+SUMMARY
+===============================================
+|     Property     |          Value           |
+===============================================
+| User             | runner                   |
+| Host             | e144790da0a4             |
+| Tool             | Riviera-PRO 2022.04      |
+| Report file      | /home/runner/cov.txt     |
+| Report date      | 2023-12-26 11:02         |
+| Report arguments | -verbose                 |
+| Input file       | /home/runner/fcover.acdb |
+| Input file date  | 2023-12-26 11:02         |
+| Number of tests  | 1                        |
+===============================================
+
+
+TEST DETAILS
+==============================================
+| Property |              Value              |
+==============================================
+| Test     | fcover.acdb:fcover              |
+| Status   | Ok                              |
+| Args     | asim +access+r                  |
+| Simtime  | 3000 ns                         |
+| Cputime  | 0.109 s                         |
+| Seed     | 1                               |
+| Date     | 2023-12-26 11:02                |
+| User     | runner                          |
+| Host     | e144790da0a4                    |
+| Host os  | Linux64                         |
+| Tool     | Riviera-PRO 2022.04 (simulator) |
+==============================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++     DESIGN HIERARCHY    ++++++++++
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+CUMULATIVE SUMMARY
+=============================================
+|    Coverage Type    | Weight | Hits/Total |
+=============================================
+| Covergroup Coverage |      1 |   100.000% |
+|---------------------|--------|------------|
+| Types               |        |      1 / 1 |
+=============================================
+CUMULATIVE INSTANCE-BASED COVERAGE: 100.000%
+COVERED INSTANCES: 1 / 1
+FILES: 1
+
+
+INSTANCE - /tb : work.tb
+
+
+    SUMMARY
+    ==========================================================================
+    |    Coverage Type    | Weight | Local Hits/Total | Recursive Hits/Total |
+    ==========================================================================
+    | Covergroup Coverage |      1 |         100.000% |             100.000% |
+    |---------------------|--------|------------------|----------------------|
+    | Types               |        |            1 / 1 |                1 / 1 |
+    ==========================================================================
+    WEIGHTED AVERAGE LOCAL: 100.000%
+    WEIGHTED AVERAGE RECURSIVE: 100.000%
+
+
+    COVERGROUP COVERAGE
+    ============================================================
+    |        Covergroup        |   Hits   |  Goal /  | Status  |
+    |                          |          | At Least |         |
+    ============================================================
+    | TYPE /tb/cvr_penc        | 100.000% | 100.000% | Covered |
+    ============================================================
+    | INSTANCE <UNNAMED1>      | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | COVERPOINT <UNNAMED1>::y | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | bin zero                 |        1 |        1 | Covered |
+    | bin one                  |        2 |        1 | Covered |
+    | bin two                  |        8 |        1 | Covered |
+    | bin three                |        8 |        1 | Covered |
+    | bin four                 |       15 |        1 | Covered |
+    | bin five                 |       37 |        1 | Covered |
+    | bin six                  |       88 |        1 | Covered |
+    | bin seven                |      139 |        1 | Covered |
+    |--------------------------|----------|----------|---------|
+    | COVERPOINT <UNNAMED1>::a | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | bin auto[0]              |        1 |        1 | Covered |
+    | bin auto[1]              |        2 |        1 | Covered |
+    | bin auto[2]              |        8 |        1 | Covered |
+    | bin auto[3]              |        8 |        1 | Covered |
+    | bin auto[4]              |       15 |        1 | Covered |
+    | bin auto[5]              |       37 |        1 | Covered |
+    | bin auto[6]              |       88 |        1 | Covered |
+    | bin auto[7]              |      138 |        1 | Covered |
+    ============================================================
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++       DESIGN UNITS      ++++++++++
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+CUMULATIVE SUMMARY
+=============================================
+|    Coverage Type    | Weight | Hits/Total |
+=============================================
+| Covergroup Coverage |      1 |   100.000% |
+|---------------------|--------|------------|
+| Types               |        |      1 / 1 |
+=============================================
+CUMULATIVE DESIGN-BASED COVERAGE: 100.000%
+COVERED DESIGN UNITS: 1 / 1
+FILES: 1
+
+
+MODULE - work.tb
+
+
+    SUMMARY
+    =============================================
+    |    Coverage Type    | Weight | Hits/Total |
+    =============================================
+    | Covergroup Coverage |      1 |   100.000% |
+    |---------------------|--------|------------|
+    | Types               |        |      1 / 1 |
+    =============================================
+    WEIGHTED AVERAGE: 100.000%
+
+
+    COVERGROUP COVERAGE
+    ============================================================
+    |        Covergroup        |   Hits   |  Goal /  | Status  |
+    |                          |          | At Least |         |
+    ============================================================
+    | TYPE /tb/cvr_penc        | 100.000% | 100.000% | Covered |
+    ============================================================
+    | INSTANCE <UNNAMED1>      | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | COVERPOINT <UNNAMED1>::y | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | bin zero                 |        1 |        1 | Covered |
+    | bin one                  |        2 |        1 | Covered |
+    | bin two                  |        8 |        1 | Covered |
+    | bin three                |        8 |        1 | Covered |
+    | bin four                 |       15 |        1 | Covered |
+    | bin five                 |       37 |        1 | Covered |
+    | bin six                  |       88 |        1 | Covered |
+    | bin seven                |      139 |        1 | Covered |
+    |--------------------------|----------|----------|---------|
+    | COVERPOINT <UNNAMED1>::a | 100.000% | 100.000% | Covered |
+    |--------------------------|----------|----------|---------|
+    | bin auto[0]              |        1 |        1 | Covered |
+    | bin auto[1]              |        2 |        1 | Covered |
+    | bin auto[2]              |        8 |        1 | Covered |
+    | bin auto[3]              |        8 |        1 | Covered |
+    | bin auto[4]              |       15 |        1 | Covered |
+    | bin auto[5]              |       37 |        1 | Covered |
+    | bin auto[6]              |       88 |        1 | Covered |
+    | bin auto[7]              |      138 |        1 | Covered |
+    ============================================================
+
+

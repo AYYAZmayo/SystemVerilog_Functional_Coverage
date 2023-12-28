@@ -1,0 +1,61 @@
+Riviera-PRO 2022.04.117.8517(Linux64) 2023-12-28 04:36:10
+
+Elaboration top modules:
+Verilog Module                tb
+SystemVerilog Class           environment
+SystemVerilog Class           *base_class
+SystemVerilog Class           generator
+SystemVerilog Class           driver
+SystemVerilog Class           monitor
+SystemVerilog Class           scoreboard
+SystemVerilog Class           \std::mailbox#(transaction) \
+SystemVerilog Class           transaction
+
+
+----------------------------------------------------------------------------------------------------------------
+Verilog Module                                   | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------------------------------
+tb                                               | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+counter_8                                        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+SystemVerilog Interface                          | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------------------------------
+counter_8_intf                                   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+SystemVerilog Class                              | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------------------------------
+environment                                      | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+*base_class                                      | vl      |      | 2022.04.117 (Linux64) | <unavailable>
+generator                                        | work    | SVA  | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+driver                                           | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+monitor                                          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+scoreboard                                       | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\std::mailbox#(transaction) \                    | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+transaction                                      | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor covergroup::c \                         | work    | SVA  | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c coverpoint::0 \          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c coverpoint::1 \          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c coverpoint::2 \          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c coverpoint::3 \          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c cross::cross_ld_loadin \ | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c coverpoint::7 \          | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c cross::cross_rst_up \    | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\monitor::covergroup::c cross::cross_rst_y \     | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+Library                                          | Comment
+----------------------------------------------------------------------------------------------------------------
+vl                                               | Standard Verilog library
+work                                             | None
+----------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

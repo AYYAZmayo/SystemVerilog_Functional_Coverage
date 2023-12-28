@@ -1,0 +1,48 @@
+Riviera-PRO 2022.04.117.8517(Linux64) 2023-12-26 05:22:58
+
+Elaboration top modules:
+Verilog Module                tb
+
+
+---------------------------------------------------------------------------------------------
+Verilog Module                | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+tb                            | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+mux                           | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+SystemVerilog Class           | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+\tb cvr_mux \                 | work    | SVA  | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::a \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::b \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::c \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::d \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::e \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::f \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::g \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::h \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::sel \ | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux coverpoint::y \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::0 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::1 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::2 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::3 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::4 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::5 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::6 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_mux cross::7 \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                       | Comment
+---------------------------------------------------------------------------------------------
+work                          | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

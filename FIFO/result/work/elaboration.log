@@ -1,0 +1,43 @@
+Riviera-PRO 2022.04.117.8517(Linux64) 2023-12-26 23:12:04
+
+Elaboration top modules:
+Verilog Module                tb
+
+
+----------------------------------------------------------------------------------------------------
+Verilog Module                       | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------------------
+tb                                   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+FIFO                                 | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+SystemVerilog Class                  | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------------------
+\tb cvr_fifo \                       | work    | SVA  | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::rst \       | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::wr \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::rd \        | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::empty \     | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::full \      | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::din \       | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo coverpoint::dout \      | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_rst_wr \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_rst_rd \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_wr_din \   | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_rd_dout \  | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_wr_full \  | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+\tb.cvr_fifo cross::cross_rd_empty \ | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Library                              | Comment
+----------------------------------------------------------------------------------------------------
+work                                 | None
+----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

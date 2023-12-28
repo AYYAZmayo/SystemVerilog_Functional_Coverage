@@ -1,0 +1,87 @@
+timestamp=1703660204631
+
+[~A]
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*5278*6637
+
+[~MFT]
+0=15|0work.mgf|6637|0
+1=8|1work.mgf|21729|0
+3=16|3work.mgf|23969|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c92163eff870f379484020a39c38a41f55764
+
+[\tb cvr_dac1 \]
+A/\tb cvr_dac1 \=22|../testbench.sv|30|1*4386
+AICT=436137012353280
+BinL64/\tb cvr_dac1 \=3*4562
+CLI=0*1228
+R=../testbench.sv|30
+SLP=3*8557
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|2fdd665be5446c330e6aaf9e89b0c9a4305bdeb032331262892a53f9db625b70723ed9bee616a9ef0249414f0c06b694
+
+[\tb cvr_dac2 \]
+A/\tb cvr_dac2 \=22|../testbench.sv|52|1*9521
+AICT=436137012353792
+BinL64/\tb cvr_dac2 \=3*11381
+CLI=0*2230
+R=../testbench.sv|52
+SLP=3*14007
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c6d3ae5d2b68791d00a0d018670ec63d9dd5392263cb088b34fb4f6219a7b010723ed9bee616a9ef0249414f0c06b694
+
+[\tb.cvr_dac1 coverpoint::0 \]
+A/\tb.cvr_dac1 coverpoint::0 \=22|../testbench.sv|33|1*14510
+AICT=436137012354048
+BinL64/\tb.cvr_dac1 coverpoint::0 \=3*16432
+CLI=0*3127
+R=../testbench.sv|33
+SLP=3*18281
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|0724903e442abafbe5d7b5e8067c1ffc218e7c18a44f67763946fa29660d2dc347b2faa7df7843501390471285cef3fd35527d0c7ee5de6c59de24616ba241a3
+
+[\tb.cvr_dac2 coverpoint::cs \]
+A/\tb.cvr_dac2 coverpoint::cs \=22|../testbench.sv|59|1*21729
+AICT=436137012354560
+BinL64/\tb.cvr_dac2 coverpoint::cs \=3*22437
+CLI=0*4898
+R=../testbench.sv|59
+SLP=3*23969
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|95a67f0214da464a178d8b82dd52b6192f1232a84ac9c3443e50e29de1734cdf89c7add5867a8ed16491654084e362e966eb9bdf51f859919e01910955b443b5
+
+[\tb.cvr_dac2 coverpoint::mosi \]
+A/\tb.cvr_dac2 coverpoint::mosi \=22|../testbench.sv|54|1*18100
+AICT=436137012354304
+BinL64/\tb.cvr_dac2 coverpoint::mosi \=3*19609
+CLI=0*4011
+R=../testbench.sv|54
+SLP=3*21139
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|95a67f0214da464a178d8b82dd52b6199a940d5bda57bb4bd28f6ae39bc3c1476d42a84b49cbeecc17fc2b48e8a53c346ab6dd9624e502e4be240443e23d513c
+
+[dac]
+A/dac=22|../design.sv|1|1*374
+BinL64/dac=3*174
+R=../design.sv|1
+SLP=3*1103
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|b59c34b1ffbf243394f18e7825ed9a00404b40a476ea203dfb3edce48be12e3b
+
+[tb]
+A/tb=22|../testbench.sv|1|1*2174
+BinL64/tb=3*2031
+R=../testbench.sv|1
+SLP=3*3477
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fad9a75444862397c3b871d6cdc14bf981
+
+[~U]
+$root=12|0*0|
+\tb cvr_dac1 \=12|0*618||0x30000
+\tb cvr_dac2 \=12|0*1615||0x30000
+\tb.cvr_dac1 coverpoint::0 \=12|0*2625||0x80030000
+\tb.cvr_dac2 coverpoint::cs \=12|0*4395||0x80030000
+\tb.cvr_dac2 coverpoint::mosi \=12|0*3505||0x80030000
+dac=12|0*182|
+tb=12|0*463||0x10

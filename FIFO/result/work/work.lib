@@ -1,0 +1,177 @@
+timestamp=1703650324315
+
+[~A]
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*13523*15138
+
+[~MFT]
+0=33|0work.mgf|15138|0
+1=17|1work.mgf|59100|0
+3=34|3work.mgf|49944|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c92160711f451f0d9fd987707d1694fcb14d3
+
+[FIFO]
+A/FIFO=22|../design.sv|1|1*374
+BinL64/FIFO=3*174
+R=../design.sv|1
+SLP=3*1132
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|a11a689b2db53c4db6c2c02897e28aaac4c95708e85e4d8997ca2f23d9b01ef9
+
+[\tb cvr_fifo \]
+A/\tb cvr_fifo \=22|../testbench.sv|54|1*5133
+AICT=436134482978304
+BinL64/\tb cvr_fifo \=3*5341
+CLI=0*1434
+R=../testbench.sv|54
+SLP=3*9927
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|d27f4b9acead374005821197c607338c2572b7907f4e723a0fb2d01ba88ebfe51f2c873e54a202bdd976f6248e1e5925
+
+[\tb.cvr_fifo coverpoint::din \]
+A/\tb.cvr_fifo coverpoint::din \=22|../testbench.sv|82|1*33449
+AICT=436134482980352
+BinL64/\tb.cvr_fifo coverpoint::din \=3*28713
+CLI=0*6879
+R=../testbench.sv|82
+SLP=3*30269
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793ba573259947ce3568fbb9d9a8bac0a8edfc4127b904f03dc0d5d085cb54a82fca42d391dcf372ce9a75d239ced54863cd
+
+[\tb.cvr_fifo coverpoint::dout \]
+A/\tb.cvr_fifo coverpoint::dout \=22|../testbench.sv|88|1*37068
+AICT=436134482980608
+BinL64/\tb.cvr_fifo coverpoint::dout \=3*31570
+CLI=0*7769
+R=../testbench.sv|88
+SLP=3*33127
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b9c665779158ecf72f8651f29ee3ba554220aee5c1373560610f493fcf04f9e806ff42b6b20f66a7177f138b26272906c
+
+[\tb.cvr_fifo coverpoint::empty \]
+A/\tb.cvr_fifo coverpoint::empty \=22|../testbench.sv|72|1*26172
+AICT=436134482979840
+BinL64/\tb.cvr_fifo coverpoint::empty \=3*23039
+CLI=0*5097
+R=../testbench.sv|72
+SLP=3*24574
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793bf1c63c06a4947d8b6ab6259ce45a3ca3237fbe3570291b4817a842dd194e2bc208c3beec155494074fbc70efcd4281ae
+
+[\tb.cvr_fifo coverpoint::full \]
+A/\tb.cvr_fifo coverpoint::full \=22|../testbench.sv|77|1*29817
+AICT=436134482980096
+BinL64/\tb.cvr_fifo coverpoint::full \=3*25876
+CLI=0*5990
+R=../testbench.sv|77
+SLP=3*27413
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b95ecac4068019a964366d380988d99a78a3fef5bd340e1fe3740749b7101369b6ff42b6b20f66a7177f138b26272906c
+
+[\tb.cvr_fifo coverpoint::rd \]
+A/\tb.cvr_fifo coverpoint::rd \=22|../testbench.sv|67|1*22566
+AICT=436134482979584
+BinL64/\tb.cvr_fifo coverpoint::rd \=3*20212
+CLI=0*4207
+R=../testbench.sv|67
+SLP=3*21746
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793bc14220543bba6962f47db8bcd684071588ee6e219e18a06416248e064133f9ec808d97059577a1ea324210683a5a61d2
+
+[\tb.cvr_fifo coverpoint::rst \]
+A/\tb.cvr_fifo coverpoint::rst \=22|../testbench.sv|57|1*15341
+AICT=436134482979072
+BinL64/\tb.cvr_fifo coverpoint::rst \=3*14566
+CLI=0*2436
+R=../testbench.sv|57
+SLP=3*16093
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793beec83251be1c923df014dcd05db416b23375a83d4e398e148cb448f65a5bdf38a7a226b6e01fcd46afa3b2abeb3f142f
+
+[\tb.cvr_fifo coverpoint::wr \]
+A/\tb.cvr_fifo coverpoint::wr \=22|../testbench.sv|62|1*18960
+AICT=436134482979328
+BinL64/\tb.cvr_fifo coverpoint::wr \=3*17390
+CLI=0*3322
+R=../testbench.sv|62
+SLP=3*18922
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793ba5908d8d3f763225778d0159e758abba46543f77e3d18790f2aa57d36d00363a808d97059577a1ea324210683a5a61d2
+
+[\tb.cvr_fifo cross::cross_rd_dout \]
+A/\tb.cvr_fifo cross::cross_rd_dout \=22|../testbench.sv|110|1*51714
+AICT=436134482981632
+BinL64/\tb.cvr_fifo cross::cross_rd_dout \=3*42777
+CLI=0*11338
+R=../testbench.sv|110
+SLP=3*44285
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b1e1b1acc76592c2c27f237212550088158409b7654c6b370d6c9519a98b7725ea01c57378b96e4c6f32795a3793b0dfd
+
+[\tb.cvr_fifo cross::cross_rd_empty \]
+A/\tb.cvr_fifo cross::cross_rd_empty \=22|../testbench.sv|121|1*59100
+AICT=436134482982144
+BinL64/\tb.cvr_fifo cross::cross_rd_empty \=3*48400
+CLI=0*13132
+R=../testbench.sv|121
+SLP=3*49944
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b21657530c75561e8dd3228db6bbaca46bae43578dc43639cc9f602b7840da275b7474cda25a811b3634ebd37bf7bb0f0
+
+[\tb.cvr_fifo cross::cross_rst_rd \]
+A/\tb.cvr_fifo cross::cross_rst_rd \=22|../testbench.sv|100|1*44354
+AICT=436134482981120
+BinL64/\tb.cvr_fifo cross::cross_rst_rd \=3*37205
+CLI=0*9549
+R=../testbench.sv|100
+SLP=3*38709
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793bfc6408d6e07ee595a54a5a2e9963c5550a98f07def92309036f5699708993f7c537e90b109a8222f6b500f66a42bf413
+
+[\tb.cvr_fifo cross::cross_rst_wr \]
+A/\tb.cvr_fifo cross::cross_rst_wr \=22|../testbench.sv|95|1*40700
+AICT=436134482980864
+BinL64/\tb.cvr_fifo cross::cross_rst_wr \=3*34430
+CLI=0*8656
+R=../testbench.sv|95
+SLP=3*35929
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b301fbb5dc16a45b99cd939d3e46ee35dd5c18c6f4ff63b498fc60b4161da8e8b537e90b109a8222f6b500f66a42bf413
+
+[\tb.cvr_fifo cross::cross_wr_din \]
+A/\tb.cvr_fifo cross::cross_wr_din \=22|../testbench.sv|105|1*48034
+AICT=436134482981376
+BinL64/\tb.cvr_fifo cross::cross_wr_din \=3*39986
+CLI=0*10441
+R=../testbench.sv|105
+SLP=3*41495
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b10259c13f6f0ea9a390f34c382ea2ca2d157714b40b6906bc5ee716070b6ac8882635f7016f5098d6f30e7cb48f83302
+
+[\tb.cvr_fifo cross::cross_wr_full \]
+A/\tb.cvr_fifo cross::cross_wr_full \=22|../testbench.sv|115|1*55407
+AICT=436134482981888
+BinL64/\tb.cvr_fifo cross::cross_wr_full \=3*45570
+CLI=0*12233
+R=../testbench.sv|115
+SLP=3*47113
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3122897e0cef40fc54022a54e873793b355694541d63bdf59e4407d4f93f6861136d385e234e553d9b6e3154640af36ff8e334094dbcb7deaa09b9b3498b4b74
+
+[tb]
+A/tb=22|../testbench.sv|1|1*2407
+BinL64/tb=3*1787
+R=../testbench.sv|1
+SLP=3*3680
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95faee35825a7a3b416d35f219c8162d608e
+
+[~U]
+$root=12|0*0|
+FIFO=12|0*182|
+\tb cvr_fifo \=12|0*673||0x30000
+\tb.cvr_fifo coverpoint::din \=12|0*6373||0x80030000
+\tb.cvr_fifo coverpoint::dout \=12|0*7260||0x80030000
+\tb.cvr_fifo coverpoint::empty \=12|0*4587||0x80030000
+\tb.cvr_fifo coverpoint::full \=12|0*5481||0x80030000
+\tb.cvr_fifo coverpoint::rd \=12|0*3702||0x80030000
+\tb.cvr_fifo coverpoint::rst \=12|0*1929||0x80030000
+\tb.cvr_fifo coverpoint::wr \=12|0*2818||0x80030000
+\tb.cvr_fifo cross::cross_rd_dout \=12|0*10831||0x80030000
+\tb.cvr_fifo cross::cross_rd_empty \=12|0*12624||0x80030000
+\tb.cvr_fifo cross::cross_rst_rd \=12|0*9045||0x80030000
+\tb.cvr_fifo cross::cross_rst_wr \=12|0*8152||0x80030000
+\tb.cvr_fifo cross::cross_wr_din \=12|0*9937||0x80030000
+\tb.cvr_fifo cross::cross_wr_full \=12|0*11728||0x80030000
+tb=12|0*428||0x10

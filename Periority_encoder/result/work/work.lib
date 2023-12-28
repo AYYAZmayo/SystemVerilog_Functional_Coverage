@@ -1,0 +1,67 @@
+timestamp=1703606546509
+
+[~A]
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*3287*4149
+
+[~MFT]
+0=11|0work.mgf|4149|0
+1=6|1work.mgf|11461|0
+3=12|3work.mgf|12712|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c921639c2724ec0e4bc56a8d219df986140a8
+
+[\tb cvr_penc \]
+A/\tb cvr_penc \=22|../testbench.sv|8|1*3004
+AICT=436123275889408
+BinL64/\tb cvr_penc \=3*3190
+CLI=0*1140
+R=../testbench.sv|8
+SLP=3*5914
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|38e7805bb08c2d19477938e5710841164808ee0eabf5db015707c36d4c723e0f017a377d69d71b7a7a353b5f602c385a
+
+[\tb.cvr_penc coverpoint::a \]
+A/\tb.cvr_penc coverpoint::a \=22|../testbench.sv|22|1*11461
+AICT=436123275889920
+BinL64/\tb.cvr_penc coverpoint::a \=3*11252
+CLI=0*2911
+R=../testbench.sv|22
+SLP=3*12712
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|85a5e7426c126984d5aa30117cdcbb121452c0f8bc84ba4964bdaadc38b887561fcb67511236633a8289e0a2d0556f01b88aa42783f7129a562a3006a7afb697
+
+[\tb.cvr_penc coverpoint::y \]
+A/\tb.cvr_penc coverpoint::y \=22|../testbench.sv|11|1*7871
+AICT=436123275889664
+BinL64/\tb.cvr_penc coverpoint::y \=3*8306
+CLI=0*2033
+R=../testbench.sv|11
+SLP=3*9946
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|85a5e7426c126984d5aa30117cdcbb129b5991b4967ba5d0b6e0ce9cad290c7ae58469ab4c9d28604b2290075e99b422b88aa42783f7129a562a3006a7afb697
+
+[penc]
+A/penc=22|../design.sv|1|1*374
+BinL64/penc=3*174
+R=../design.sv|1
+SLP=3*869
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|32fb95471e3174ff878e31d03e6e1f46bd9f613ecee405b9cec003dc14477d1f
+
+[tb]
+A/tb=22|../testbench.sv|1|1*1289
+BinL64/tb=3*1290
+R=../testbench.sv|1
+SLP=3*2340
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fac37938110e03051e2e454bf406248534
+
+[~U]
+$root=12|0*0|
+\tb cvr_penc \=12|0*528||0x30000
+\tb.cvr_penc coverpoint::a \=12|0*2409||0x80030000
+\tb.cvr_penc coverpoint::y \=12|0*1530||0x80030000
+penc=12|0*182|
+tb=12|0*372||0x10
